@@ -1,3 +1,7 @@
 <template>
-  <h1>Hello world</h1>
+  <h1 class="text-5xl font-bold">Hello world</h1>
 </template>
+
+<script>
+    import "./assets/styles/custom.css";
+</script>

@@ -11,6 +11,7 @@
     "tauri": "tauri"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "latest",
     "@tauri-apps/api": "^1.5.4",
     "@tauri-apps/cli": "^1.5.12",
     "nuxt": "^3.11.2",
