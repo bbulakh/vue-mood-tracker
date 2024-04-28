@@ -1,7 +1,16 @@
-<template>
-  <h1 class="text-5xl font-bold">Hello world</h1>
+<script setup>
+  import "./assets/styles/custom.css"; 
+  import UserGreeting from '~/components/UserGreeting.vue';
+  import MoodStats from "~/components/MoodStats.vue";
+  import MoodChart from "~/components/MoodChart.vue";
+</script>
+
+<template> 
+  <UserGreeting />
+  <MoodStats />
+  <div class="max-w-[300px]"><MoodChart /></div>
 </template>
 
-<script>
-    import "./assets/styles/custom.css";
-</script>
+<style scoped>
+  
+</style>
