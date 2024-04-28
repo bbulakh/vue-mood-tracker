@@ -20,6 +20,6 @@
     src: url('/static/fonts/Inter-Bold.ttf') format('ttf');
   }
 
-  body {
+  body, h1 {
     font-family: 'Inter', sans-serif;
   }
