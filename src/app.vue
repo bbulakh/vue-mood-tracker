@@ -1,9 +1,11 @@
 <template>
   <div>
-    <NuxtLayout />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 
 <script>
-import "./assets/styles/custom.css"; 
+  import "./assets/styles/custom.css"; 
 </script>
