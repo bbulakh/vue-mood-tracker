@@ -5,7 +5,7 @@
 
 <template>
   <h1 class="text-2xl font-bold">Hello, {{ userName }}!</h1>
-  <p>How is your day?</p>
+  <p>How was your day?</p>
 </template>
 
 <style>
