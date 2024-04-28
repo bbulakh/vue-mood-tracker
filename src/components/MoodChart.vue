@@ -1,5 +1,5 @@
 <template>
-  <Bar id="my-chart-id" :options="chartOptions" :data="chartData" />
+  <div class="border rounded-xl p-3"><Bar id="my-chart-id" :options="chartOptions" :data="chartData" /></div>
 </template>
 
 <script>
@@ -29,8 +29,8 @@ export default {
   data() {
     return {
       chartData: {
-        labels: ["January", "February", "March"],
-        datasets: [{ data: [40, 20, 12] }],
+        labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        datasets: [{ data: [1, 2, 2, 3, 5, 3, 3] }],
       },
       chartOptions: {
         responsive: true,
@@ -44,6 +44,11 @@ export default {
             grid: {
               display: false,
             },
+          },
+        },
+        plugins: {
+          legend: {
+            display: false,
           },
         },
       },
